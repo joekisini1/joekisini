@@ -1,0 +1,130 @@
+.specials-hero {
+  width: 100vw;
+  height: 430px;
+  background-image: url(Specials-Hero-D.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.specials-h2 {
+  font-size: 68px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.special-card {
+  width: 400px;
+  background-color: var(--color5);
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0px 6px 8px 5px lightgrey;
+}
+
+.specials-section {
+  background-color: var(--color4);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.specials-p1 {
+  margin-top: 0px;
+  font-size: 15px;
+  max-width: 550px;
+  color: #fff;
+}
+
+.specials-p2 {
+  color: #fff;
+}
+
+.barcode-img {
+  max-width: 100px;
+}
+
+.specials-text-box-1 {
+  margin-top: 100px;
+}
+
+.specials-btn {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.specials-btn:hover {
+  background-color: var(--color2);
+  color: #fff;
+}
+
+.special-card-p {
+  font-size: 20px;
+}
+
+.special-card-p2 {
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+  color: var(--color-3);
+}
+
+@media only screen and (min-width: 601px) and (max-width: 770px) {
+  .specials-text-box-1 {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .specials-hero {
+    width: 100vw;
+    height: 150px;
+    background-image: url(Specials-Hero-M.png);
+  }
+
+  .specials-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .specials-card-box {
+    flex-direction: column !important;
+  }
+  .special-card {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .specials-btn {
+    width: 230px;
+    margin-left: 28px;
+    margin-bottom: 40px;
+  }
+
+  .specials-text-box-1 {
+    margin-top: 20px;
+  }
+  .specials-h1 {
+    margin-top: 0;
+    margin-left: 30px;
+  }
+
+  .specials-h2 {
+    font-size: 42px;
+  }
+
+  .specials-p1 {
+    max-width: 270px;
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .specials-p2 {
+    max-width: 300px;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+}
